@@ -19,6 +19,6 @@ jobs:
           distribution: 'temurin'
           cache: gradle
       - name: Setup Gradle
-        uses: gradle/gradle-buil-action@V2
+        uses: gradle/actions/setup-gradle@v3
       - name: Build app
         run: ./gradlew assemble
