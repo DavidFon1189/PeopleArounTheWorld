@@ -1,0 +1,30 @@
+{
+    "results": [
+        {
+            "location": {
+                "street": {
+                    "number": 4885,
+                    "name": "Rua Minas Gerais "
+                },
+                "city": "Jandira",
+                "state": "Paraíba",
+                "country": "Brazil",
+                "postcode": 49791,
+                "coordinates": {
+                    "latitude": "-80.6121",
+                    "longitude": "-121.9189"
+                },
+                "timezone": {
+                    "offset": "+2:00",
+                    "description": "Kaliningrad, South Africa"
+                }
+            }
+        }
+    ],
+    "info": {
+        "seed": "f54dfe179d1b63aa",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}
