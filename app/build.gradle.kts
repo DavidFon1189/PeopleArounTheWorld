@@ -59,16 +59,16 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation("androidx.compose.runtime:runtime-livedata:1.6.6")
+    implementation("androidx.compose.runtime:runtime-livedata:1.8.3")
     //Hilt
-    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
 
-    androidTestImplementation("com.google.dagger:hilt-android-testing:2.56.2")
+    androidTestImplementation(libs.hilt.android.testing)
     // ...with Kotlin.
-    kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.56.2")
-    testImplementation("androidx.arch.core:core-testing:2.2.0")
+    kaptAndroidTest(libs.hilt.android.compiler)
+    testImplementation(libs.androidx.core.testing)
 
 
     //Retrofit
