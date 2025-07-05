@@ -61,14 +61,14 @@ dependencies {
 
     implementation("androidx.compose.runtime:runtime-livedata:1.8.3")
     //Hilt
-    implementation(libs.androidx.hilt.navigation.compose)
+    implementation("androidx.hilt:hilt-navigation-compose:1.3.0")
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
 
-    androidTestImplementation(libs.hilt.android.testing)
+    androidTestImplementation("com.google.dagger:hilt-android-testing:2.56.2")
     // ...with Kotlin.
-    kaptAndroidTest(libs.hilt.android.compiler)
-    testImplementation(libs.androidx.core.testing)
+    kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.56.2")
+    testImplementation("androidx.arch.core:core-testing:2.2.0")
 
 
     //Retrofit
