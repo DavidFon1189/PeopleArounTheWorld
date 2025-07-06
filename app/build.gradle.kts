@@ -59,7 +59,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation("androidx.compose.runtime:runtime-livedata:1.6.6")
+    implementation("androidx.compose.runtime:runtime-livedata:1.8.3")
     //Hilt
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
     implementation(libs.hilt.android)
